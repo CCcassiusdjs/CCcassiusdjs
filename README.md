@@ -5,10 +5,11 @@ I am a sixth-semester Computer Science student at PUCRS and a Scientific Initiat
 
 ### 📊 GitHub Statistics
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CCcassiusdjs&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CCcassiusdjs&layout=compact&theme=radical)
 
-### ⚡ Recent Activity
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=CCcassiusdjs&theme=react-dark)
+### 📊 Most Used Languages
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CCcassiusdjs&layout=compact&theme=radical)
+
+
 
 ## 🛠️ Technologies and Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 

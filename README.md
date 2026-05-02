@@ -36,13 +36,12 @@
 Fault injection and tolerance analysis in safety-critical avionics software. The project aims to develop methodologies and tools for assessing the reliability of embedded software in aerospace systems through virtual fault injection platforms. I work on extending fault injection capabilities for ArduPilot SITL (Software-in-the-Loop) simulation to evaluate fault tolerance mechanisms in unmanned aerial vehicles (UAVs).
 
 **Key activities:**
-- Fork of ArduPilot (`arducopter`) for fault injection experiments
+- Fork of ArduPilot for fault injection experiments
 - SITL-based fault injection campaigns
 - Single-event upset (SEU) emulation in flight control algorithms
 - Collaboration with Loughborough University, UFRGS, and INSTOR
 
-> **PI:** Prof. Ney Laert Vilar Calazans · **Role:** Research Fellow since May 2025
-> 🔗 [`arducopter`](https://github.com/CCcassiusdjs/arducopter)
+> **PI:** Prof. Ney Laert Vilar Calazans · **Role:** Scientific Initiation Fellow since May 2025
 
 ---
 
@@ -52,14 +51,13 @@ Fault injection and tolerance analysis in safety-critical avionics software. The
 Development of a high-fidelity simulation infrastructure for autonomous maritime vessels operating in offshore environments. The project integrates physical modeling, digital twins, and fault simulation to enable realistic testing of autonomous navigation algorithms under adverse conditions. I contribute to Team B (Fault Tolerance & Integration), focusing on sensor degradation modeling, contingency resource management, and fault injection in maritime simulations.
 
 **Key activities:**
-- Robot simulator fork (`webots`) for maritime vessel dynamics
-- 3D Digital Twin visualization (`SwarmViewer`) for drone swarms
+- Robot simulator fork for maritime vessel dynamics
+- 3D Digital Twin visualization for drone swarms
 - Integration of ROS 2 navigation stacks with Webots simulator
 - Fault injection for sensor degradation scenarios
 - Collaboration with Instor, PUCRS, UFSC, and Loughborough University
 
-> **PI:** Prof. Anderson Domingues · **Role:** ITI-A Fellow (Mar 2025 – Mar 2026)
-> 🔗 [`SwarmViewer`](https://github.com/CCcassiusdjs/SwarmViewer) · [`webots`](https://github.com/CCcassiusdjs/webots)
+> **PI:** Prof. Anderson Domingues · **Role:** ITI-A Scientific Initiation Fellow (Mar 2025 – Mar 2026)
 
 ---
 
@@ -82,8 +80,7 @@ Complete pipeline for sleep apnea detection using photoplethysmography (PPG) sig
 - 🔧 **Signal processing:** FFT, wavelets, bandpass filtering, HRV analysis
 - 🎯 **Output:** Per-epoch apnea detection (30-second windows)
 
-> **PI:** Prof. [TBD] · **Role:** Research Fellow @ LSE
-> 🔗 [`ApeneaPrediction`](https://github.com/CCcassiusdjs/ApeneaPrediction)
+> **PI:** Prof. César Augusto Missio Marcon · **Role:** Scientific Initiation Fellow @ LSE
 
 ---
 
@@ -106,36 +103,8 @@ Research and development of Mixed Reality (MR) applications for inclusive mathem
 
 **Publication:**
 > *Mixed Reality Applications for Students with Developmental Dyscalculia in Elementary Education: A Literature Review* — Nuevas Ideas en Informática Educativa, December 2023.
-> [DOI: Available via Lattes](http://lattes.cnpq.br/3714839015853496)
 
----
-
-## 📂 Selected Repositories
-
-<div align="center">
-
-[![Research Card](https://github-readme-stats.vercel.app/api/pin/?username=CCcassiusdjs&repo=arducopter&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&icon_color=2952D4&text_color=ffffff)](https://github.com/CCcassiusdjs/arducopter)
-[![Research Card](https://github-readme-stats.vercel.app/api/pin/?username=CCcassiusdjs&repo=SwarmViewer&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&icon_color=2952D4&text_color=ffffff)](https://github.com/CCcassiusdjs/SwarmViewer)
-
-[![Research Card](https://github-readme-stats.vercel.app/api/pin/?username=CCcassiusdjs&repo=ApeneaPrediction&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&icon_color=2952D4&text_color=ffffff)](https://github.com/CCcassiusdjs/ApeneaPrediction)
-[![Research Card](https://github-readme-stats.vercel.app/api/pin/?username=CCcassiusdjs&repo=webots&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&icon_color=2952D4&text_color=ffffff)](https://github.com/CCcassiusdjs/webots)
-
-</div>
-
-| Repository | Stack | Description | Project |
-|---|---|---|---|
-| [`arducopter`](https://github.com/CCcassiusdjs/arducopter) | C++ | ArduPilot fork for fault injection in SITL simulation | AIM-FTA |
-| [`SwarmViewer`](https://github.com/CCcassiusdjs/SwarmViewer) | — | 3D Digital Twin viewer for drone swarm visualization | Jundiá |
-| [`webots`](https://github.com/CCcassiusdjs/webots) | C++ | Webots robot simulator fork for maritime vessel simulation | Jundiá |
-| [`ApeneaPrediction`](https://github.com/CCcassiusdjs/ApeneaPrediction) | Python/PyTorch | PPG + CRNN pipeline for sleep apnea detection | SleepSensing |
-| [`ML-COMPUTER_VISION-RESNET18`](https://github.com/CCcassiusdjs/ML-COMPUTER_VISION-RESNET18) | Python/Jupyter | ResNet-18 experiments for computer vision tasks | Coursework |
-| [`NSESD`](https://github.com/CCcassiusdjs/NSESD) | React/TypeScript | Institutional portal for the Embedded and Digital Systems Center | NSESD |
-| [`openclaw`](https://github.com/CCcassiusdjs/openclaw) | — | Personal AI assistant infrastructure | Personal |
-| [`minijava-parser`](https://github.com/CCcassiusdjs/minijava-parser) | Java | LL(1) recursive-descent parser for MiniJava language | Coursework |
-| [`lsa-cluster-infra`](https://github.com/CCcassiusdjs/lsa-cluster-infra) | Shell/YAML | LSA cluster infrastructure documentation and playbooks | LSA |
-| [`dataset_orchestrator_main`](https://github.com/CCcassiusdjs/dataset_orchestrator_main) | Python | Dataset orchestrator for sensor emulation pipelines | Research |
-| [`BioAssist-TCC`](https://github.com/CCcassiusdjs/BioAssist-TCC) | — | Bioinformatics assistance tool (undergraduate thesis) | TCC |
-| [`Systems_Security`](https://github.com/CCcassiusdjs/Systems_Security) | Python/C | Security analysis tools and cryptographic implementations | Coursework |
+> **PI:** Prof. Isabel Cristina Machado de Lara · **Role:** Scientific Initiation Fellow
 
 ---
 
@@ -184,7 +153,7 @@ Research and development of Mixed Reality (MR) applications for inclusive mathem
 <div align="center">
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CCcassiusdjs&show_icons=true&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&icon_color=2952D4&text_color=ffffff&include_all_commits=true&count_private=true)](https://github.com/CCcassiusdjs)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CCcassiusdjs&layout=compact&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&text_color=ffffff&langs_count=8)](https://github.com/CCcassiusdjs)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CCcassiusdjs&layout=compact&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=2952D4&text_color=ffffff&langs_count=10)](https://github.com/CCcassiusdjs)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CCcassiusdjs&theme=dark&hide_border=true&background=0A0A0A&stroke=2952D4&ring=2952D4&fire=FF6B35&currStreakLabel=2952D4)](https://github.com/CCcassiusdjs)
 
@@ -212,20 +181,35 @@ Research and development of Mixed Reality (MR) applications for inclusive mathem
 
 ---
 
-## 🎓 Education & Affiliations
+## 🎓 Education & Academic Background
 
-**B.Sc. Computer Science** — PUCRS · 2018 → expected Aug 2026
+**B.Sc. Computer Science** — Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+- 🎓 Expected graduation: August 2026
+- 📚 Extracurricular coursework: Cellular Biology, Embryology, Genetics, Histology, Stem Cells, Differential and Integral Calculus III
 
-**Research Fellowships:**
-- **AIM-FTA** — CNPq Research Fellow @ LSA (2025–Present)
-- **Projeto Jundiá** — ITI-A Fellow @ LSA (Mar 2025 – Mar 2026)
-- **SleepSensing** — FAPERGS Research Fellow @ LSE (2025–Present)
-- **Mixed Reality for Inclusive Education** — CNPq Research Fellow (2022–2023)
+**Previous Education:**
+- **Technical Degree in Information Technology** — QI Faculdade & Escola Técnica (2015–2018, GPA 3.4)
 
-**Affiliations:**
-- LSA — Laboratório de Sistemas Autônomos (PUCRS)
-- LSE — Laboratório de Sistemas Embarcados (PUCRS)
-- INCT Signals (2026–Present)
+---
+
+## 🔬 Research Experience
+
+| Period | Position | Project | Advisor | Funding |
+|---|---|---|---|---|
+| 2025–Present | **Scientific Initiation Fellow** | AIM-FTA — Soft Errors in Avionics | Prof. Ney Laert Vilar Calazans | CNPq |
+| Mar 2025–Mar 2026 | **ITI-A Scientific Initiation Fellow** | Projeto Jundiá — Autonomous Vessels | Prof. Anderson Domingues | CNPq/MCTI/FNDCT |
+| 2025–Present | **Scientific Initiation Fellow** | SleepSensing — PPG & AI for Sleep Apnea | Prof. César Augusto Missio Marcon | FAPERGS/FAPESP |
+| 2022–2023 | **Scientific Initiation Fellow** | Mixed Reality for Inclusive Education | Prof. Isabel Cristina Machado de Lara | CNPq |
+
+---
+
+## 🏛️ Affiliations
+
+- **LSA** — Laboratório de Sistemas Autônomos (PUCRS)
+- **LSE** — Laboratório de Sistemas Embarcados (PUCRS)
+- **INCT Signals** — National Institute of Science and Technology in Signal Processing (2026–Present)
+- **Quantum Computing Academic League** — Founding Member
+- **PUCRS Student Academic Directory** — Member
 
 ---
 
@@ -234,6 +218,20 @@ Research and development of Mixed Reality (MR) applications for inclusive mathem
 > **Mixed Reality Applications for Students with Developmental Dyscalculia in Elementary Education: A Literature Review**
 > *Nuevas Ideas en Informática Educativa*, December 2023
 > [Lattes](http://lattes.cnpq.br/3714839015853496) · [ORCID](https://orcid.org/0000-0001-6803-5638)
+
+---
+
+## 💻 Notable Projects
+
+| Repository | Primary Languages | Description | Research Area |
+|---|---|---|---|
+| `arducopter` | C++, Python, C | ArduPilot fork for fault injection in SITL simulation | AIM-FTA |
+| `webots` | C++, C, JavaScript | Webots robot simulator fork for maritime vessel dynamics | Jundiá |
+| `SwarmViewer` | Python | 3D Digital Twin viewer for drone swarm visualization | Jundiá |
+| `ApeneaPrediction` | Python | PPG + CRNN pipeline for sleep apnea detection | SleepSensing |
+| `NSESD` | TypeScript, CSS, JS | Institutional portal for Embedded and Digital Systems Center | NSESD |
+| `dataset_orchestrator_*` | C, C++, Python | Multi-platform sensor emulation and data orchestration | Research Infrastructure |
+| `lsa-cluster-*` | Shell, YAML | LSA cluster infrastructure documentation and configuration | DevOps |
 
 ---
 

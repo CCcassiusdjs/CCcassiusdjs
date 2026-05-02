@@ -196,9 +196,9 @@ Research and development of Mixed Reality (MR) applications for inclusive mathem
 
 | Period | Position | Project | Advisor | Funding |
 |---|---|---|---|---|
-| 2025–Present | **Scientific Initiation Fellow** | AIM-FTA — Soft Errors in Avionics | Prof. Ney Laert Vilar Calazans | CNPq |
-| Mar 2025–Mar 2026 | **ITI-A Scientific Initiation Fellow** | Projeto Jundiá — Autonomous Vessels | Prof. Anderson Domingues | CNPq/MCTI/FNDCT |
-| 2025–Present | **Scientific Initiation Fellow** | SleepSensing — PPG & AI for Sleep Apnea | Prof. César Augusto Missio Marcon | FAPERGS/FAPESP |
+| Dec 2025–Present | **Scientific Initiation Fellow** | AIM-FTA — Soft Errors in Avionics | Prof. Ney Laert Vilar Calazans | CNPq |
+| Mar 2026–Present | **ITI-A Scientific Initiation Fellow** | Projeto Jundiá — Autonomous Vessels | Prof. Anderson Domingues | CNPq/MCTI/FNDCT |
+| Mar 2025–Present | **Scientific Initiation Fellow** | SleepSensing — PPG & AI for Sleep Apnea | Prof. César Augusto Missio Marcon | FAPERGS/FAPESP |
 | 2022–2023 | **Scientific Initiation Fellow** | Mixed Reality for Inclusive Education | Prof. Isabel Cristina Machado de Lara | CNPq |
 
 ---
@@ -218,20 +218,6 @@ Research and development of Mixed Reality (MR) applications for inclusive mathem
 > **Mixed Reality Applications for Students with Developmental Dyscalculia in Elementary Education: A Literature Review**
 > *Nuevas Ideas en Informática Educativa*, December 2023
 > [Lattes](http://lattes.cnpq.br/3714839015853496) · [ORCID](https://orcid.org/0000-0001-6803-5638)
-
----
-
-## 💻 Notable Projects
-
-| Repository | Primary Languages | Description | Research Area |
-|---|---|---|---|
-| `arducopter` | C++, Python, C | ArduPilot fork for fault injection in SITL simulation | AIM-FTA |
-| `webots` | C++, C, JavaScript | Webots robot simulator fork for maritime vessel dynamics | Jundiá |
-| `SwarmViewer` | Python | 3D Digital Twin viewer for drone swarm visualization | Jundiá |
-| `ApeneaPrediction` | Python | PPG + CRNN pipeline for sleep apnea detection | SleepSensing |
-| `NSESD` | TypeScript, CSS, JS | Institutional portal for Embedded and Digital Systems Center | NSESD |
-| `dataset_orchestrator_*` | C, C++, Python | Multi-platform sensor emulation and data orchestration | Research Infrastructure |
-| `lsa-cluster-*` | Shell, YAML | LSA cluster infrastructure documentation and configuration | DevOps |
 
 ---
 

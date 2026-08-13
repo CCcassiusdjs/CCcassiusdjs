@@ -22,5 +22,6 @@ Research, timeline, education and contact live on the page above.
 The repositories on this account stay private, because they hold coursework
 governed by academic integrity rules and laboratory work governed by grant
 agreements. Public code from the laboratory appears in the
-[lsa-pucrs](https://github.com/lsa-pucrs) organization. Write to me for access to
-a specific project.
+[lsa-pucrs](https://github.com/lsa-pucrs) organization. Write to
+[c.jones@edu.pucrs.br](mailto:c.jones@edu.pucrs.br) for access to a specific
+project.

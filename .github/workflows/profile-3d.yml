@@ -1,0 +1,32 @@
+name: Generate 3D contribution calendar
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # PROFILE_TOKEN is a classic PAT with the `read:user` scope. Without it the
+      # action authenticates as the repository, which can only see PUBLIC
+      # contributions — the calendar would render empty for a private-repo account.
+      - name: Render calendar
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "chore: regenerate 3D contribution calendar"
+          git push

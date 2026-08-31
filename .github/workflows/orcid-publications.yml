@@ -1,0 +1,32 @@
+name: Sync publications from ORCID
+
+on:
+  schedule:
+    - cron: "41 5 * * 1" # weekly, Monday 05:41 UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render ORCID works into README
+        env:
+          ORCID_ID: 0000-0001-6803-5638
+        run: python .github/scripts/orcid_publications.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "docs: sync publications from ORCID"
+          git push

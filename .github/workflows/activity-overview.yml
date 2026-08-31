@@ -1,0 +1,44 @@
+name: Render activity overview
+
+on:
+  schedule:
+    - cron: "23 4 * * *" # daily, 04:23 UTC
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Falling back to GITHUB_TOKEN would silently halve the numbers: it
+      # authenticates as the repository, which sees neither private repositories
+      # nor organization work. Wrong figures are worse than no figures, so stop.
+      - name: Require a personal token
+        run: |
+          if [ -z "${{ secrets.PROFILE_TOKEN }}" ]; then
+            echo "::error::PROFILE_TOKEN is not set. Create a PAT with the 'repo'"
+            echo "::error::and 'read:org' scopes and add it as a repository secret."
+            echo "::error::See docs/PROFILE-SETUP.md."
+            exit 1
+          fi
+
+      - name: Render SVGs
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python .github/scripts/activity_overview.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "chore: refresh activity overview"
+          git push

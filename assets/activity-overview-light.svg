@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="792" height="316" viewBox="0 0 792 316" role="img" aria-label="Activity overview for lsa-pucrs, personal">
+  <title>Activity overview — lsa-pucrs, personal</title>
+  <rect width="792" height="316" rx="8" fill="#FFFFFF"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="206" y="26" text-anchor="middle" fill="#1F2328" font-size="14" font-weight="600">lsa-pucrs</text>
+<line x1="206" y1="156" x2="206" y2="64" stroke="#2DA44E" stroke-width="1.6"/>
+<line x1="206" y1="156" x2="298" y2="156" stroke="#2DA44E" stroke-width="1.6"/>
+<line x1="206" y1="156" x2="206" y2="248" stroke="#2DA44E" stroke-width="1.6"/>
+<line x1="206" y1="156" x2="114" y2="156" stroke="#2DA44E" stroke-width="1.6"/>
+<text x="206" y="46" text-anchor="middle" fill="#656D76" font-size="12">Code review</text>
+<text x="310" y="161" text-anchor="start" fill="#656D76" font-size="12">Issues</text>
+<text x="206" y="276" text-anchor="middle" fill="#656D76" font-size="12">Pull requests</text>
+<text x="102" y="161" text-anchor="end" fill="#656D76" font-size="12">Commits</text>
+<polygon points="206.0,156.0 208.0,156.0 206.0,161.9 121.8,156.0" fill="#1A7F3722" stroke="#1A7F37" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="208.0" cy="156.0" r="3.5" fill="#1A7F37"/>
+<circle cx="206.0" cy="161.9" r="3.5" fill="#1A7F37"/>
+<circle cx="121.8" cy="156.0" r="3.5" fill="#1A7F37"/>
+<text x="102" y="177" text-anchor="end" fill="#1A7F37" font-size="12" font-weight="600">91%</text>
+<text x="206" y="292" text-anchor="middle" fill="#656D76" font-size="11">43 commits · 3 pull requests · 1 issue · 0 code reviews</text>
+<text x="586" y="26" text-anchor="middle" fill="#1F2328" font-size="14" font-weight="600">personal</text>
+<line x1="586" y1="156" x2="586" y2="64" stroke="#2DA44E" stroke-width="1.6"/>
+<line x1="586" y1="156" x2="678" y2="156" stroke="#2DA44E" stroke-width="1.6"/>
+<line x1="586" y1="156" x2="586" y2="248" stroke="#2DA44E" stroke-width="1.6"/>
+<line x1="586" y1="156" x2="494" y2="156" stroke="#2DA44E" stroke-width="1.6"/>
+<text x="586" y="46" text-anchor="middle" fill="#656D76" font-size="12">Code review</text>
+<text x="690" y="161" text-anchor="start" fill="#656D76" font-size="12">Issues</text>
+<text x="586" y="276" text-anchor="middle" fill="#656D76" font-size="12">Pull requests</text>
+<text x="482" y="161" text-anchor="end" fill="#656D76" font-size="12">Commits</text>
+<polygon points="586.0,156.0 588.6,156.0 586.0,179.0 519.6,156.0" fill="#1A7F3722" stroke="#1A7F37" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="588.6" cy="156.0" r="3.5" fill="#1A7F37"/>
+<circle cx="586.0" cy="179.0" r="3.5" fill="#1A7F37"/>
+<circle cx="519.6" cy="156.0" r="3.5" fill="#1A7F37"/>
+<text x="482" y="177" text-anchor="end" fill="#1A7F37" font-size="12" font-weight="600">72%</text>
+<text x="586" y="292" text-anchor="middle" fill="#656D76" font-size="11">26 commits · 9 pull requests · 1 issue · 0 code reviews</text>
+  </g>
+</svg>

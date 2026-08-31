@@ -73,43 +73,19 @@ applications for inclusive education, round out the research lines.
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cccassiusdjs/cccassiusdjs/main/assets/activity-overview-dark.svg">
+  <img alt="Activity overview: contribution mix for lsa-pucrs and personal work" src="https://raw.githubusercontent.com/cccassiusdjs/cccassiusdjs/main/assets/activity-overview-light.svg">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=cccassiusdjs&hide_border=true&card_width=440&theme=github-dark-blue">
   <img height="180" alt="Contribution streak" src="https://streak-stats.demolab.com?user=cccassiusdjs&hide_border=true&card_width=440&theme=default">
 </picture>
 
-<!--
-  ─────────────────────────────────────────────────────────────────────────────
-  THE FOUR CARDS BELOW ARE COMMENTED OUT ON PURPOSE.
 
-  Their public instances are down, not rate-limited — verified 2026-08-30:
-    github-readme-stats.vercel.app           503 DEPLOYMENT_PAUSED
-    github-readme-activity-graph.vercel.app  402 DEPLOYMENT_DISABLED
-    github-profile-trophy.vercel.app         402 DEPLOYMENT_DISABLED
-
-  Self-hosting is therefore mandatory, not optional. Follow docs/PROFILE-SETUP.md,
-  then replace each HOST-* placeholder below with your own Vercel domain and
-  delete this comment wrapper. A private-repo account additionally needs
-  Settings → Public profile → "Include private contributions on my profile",
-  or every number here reads zero.
-  ─────────────────────────────────────────────────────────────────────────────
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://HOST-STATS.vercel.app/api?username=cccassiusdjs&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&card_width=420&theme=github_dark">
-  <img height="165" alt="GitHub statistics" src="https://HOST-STATS.vercel.app/api?username=cccassiusdjs&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&card_width=420&theme=graywhite">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://HOST-STATS.vercel.app/api/top-langs/?username=cccassiusdjs&layout=compact&langs_count=8&hide_border=true&card_width=320&theme=github_dark">
-  <img height="165" alt="Most used languages" src="https://HOST-STATS.vercel.app/api/top-langs/?username=cccassiusdjs&layout=compact&langs_count=8&hide_border=true&card_width=320&theme=graywhite">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://HOST-GRAPH.vercel.app/graph?username=cccassiusdjs&hide_border=true&area=true&theme=github-compact">
-  <img alt="Contribution activity over the last 31 days" src="https://HOST-GRAPH.vercel.app/graph?username=cccassiusdjs&hide_border=true&area=true&theme=minimal">
-</picture>
-
-<img alt="GitHub profile trophies" src="https://HOST-TROPHY.vercel.app/?username=cccassiusdjs&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6">
-
--->
+Counts run from the account's first day and include private repositories and
+work in [lsa-pucrs](https://github.com/lsa-pucrs) — the figures come from the
+authenticated contributions API, not from what is publicly browsable.
 
 </div>
 

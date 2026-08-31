@@ -23,7 +23,7 @@
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--6803--5638-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-6803-5638)
 [![Lattes](https://img.shields.io/badge/Lattes-CNPq-0A5C36?style=for-the-badge&logo=academia&logoColor=white)](http://lattes.cnpq.br/3714839015853496)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-cassiusdjs-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cassiusdjs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-cassiusdjs-0A66C2?style=for-the-badge&logoColor=white)](https://linkedin.com/in/cassiusdjs)
 [![Website](https://img.shields.io/badge/Portfolio-cccassiusdjs.github.io-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cccassiusdjs.github.io)
 [![Email](https://img.shields.io/badge/Email-c.jones%40edu.pucrs.br-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:c.jones@edu.pucrs.br)
 
@@ -57,7 +57,7 @@ applications for inclusive education, round out the research lines.
   <img alt="Python, C, C++, ROS 2, Docker, Linux, Git, Bash, CMake, LaTeX" src="https://skillicons.dev/icons?i=py,c,cpp,ros,docker,linux,git,bash,cmake,latex&theme=light">
 </picture>
 
-![ArduPilot SITL](https://img.shields.io/badge/ArduPilot-SITL-C41C1C?style=flat-square&logo=ardupilot&logoColor=white)
+![ArduPilot SITL](https://img.shields.io/badge/ArduPilot-SITL-C41C1C?style=flat-square)
 ![Gazebo](https://img.shields.io/badge/Gazebo-Simulation-1A5276?style=flat-square)
 ![VHDL](https://img.shields.io/badge/VHDL-FPGA-4B2E83?style=flat-square)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
